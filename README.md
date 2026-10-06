@@ -2,7 +2,7 @@
 ## Devlogs
 ### W1
 If I move the camera from the child of the cat, the cat runs away without the camera.
-
+https://jakeleaps11.itch.io/kitty
 ### W2
 1. The RGB values are floats because they can be decimals, so they need the extra precision.
 2. Bounce can be an int because bounces are a whole number, you can't half bounce.
