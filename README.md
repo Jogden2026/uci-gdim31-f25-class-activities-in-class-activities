@@ -17,6 +17,10 @@ Classes are like recipes, and Components are the dishes themselves. Member varia
 
 The balls get extremely bright because they are being multiplied on, so each time it's scaling up multiplicatively rather than additively.
 
+### W4
+1. The ball and the cat need a rigidbody as they need gravity and to hit each other, and the goal needs the box checked to make sure the score can be updated (Table 5)
+2. I was unable to get the time to work. In the future I need to figure out how to get the text to be inserted and converted to the right type, or how to change time away from a float.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
