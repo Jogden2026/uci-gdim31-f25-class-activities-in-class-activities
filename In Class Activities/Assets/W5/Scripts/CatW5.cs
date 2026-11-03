@@ -31,7 +31,7 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
-        //
+        
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
         //      the player's control scheme.
@@ -44,8 +44,14 @@ public class CatW5 : MonoBehaviour
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
         Vector3 translation = Vector3.zero;
-        
 
+                if (_flipWSControls)
+        {
+            translation *= -1f;
+        }
+
+        float magnitude = Input.GetAxis("Vertical") * _moveSpeed * Time.deltaTime;
+        transform.Translate(0, 0, magnitude);
 
         // STEP 1 & 2 ---------------------------------------------------------
 
