@@ -26,6 +26,15 @@ The balls get extremely bright because they are being multiplied on, so each tim
 2. The Start() method
 3. Start() is setting the target of the NavMeshAgent as well as having a time for the deer to begin moving.
 
+### W7
+I found the General C# Resources and part of the Math: https://docs.google.com/document/d/1Fxju-gH8z3KSIUe_cAsdHcYuC53D5640jN2wh0G2C0s/edit?tab=t.0
+
+1. MonoBehavior, a SerializeField float for speed
+2. Public methods to start the chase, using Start() 
+3. Method should move the bats toward the player
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
