@@ -34,7 +34,7 @@ I found the General C# Resources and part of the Math: https://docs.google.com/d
 3. Method should move the bats toward the player
 
 ### W8
-1. The old code was basing the forward and backward off of the up and down instead of the transform.forward
+1. The old code was basing the forward and backward off of the Vector rather than transforming it.
 
 
 
